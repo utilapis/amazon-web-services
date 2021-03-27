@@ -1,0 +1,27 @@
+{
+  "name": "02-simplestorageservices3",
+  "version": "1.0.0",
+  "description": "Aprende a usar el Servicio S3 - Simple Storage Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/utilapis"
+  },
+  "keywords": [
+    "S3",
+    "Simple",
+    "Storage",
+    "Service",
+    "Example",
+    "app"
+  ],
+  "author": "utilapis@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.9.0",
+    "express": "^4.17.1"
+  }
+}
