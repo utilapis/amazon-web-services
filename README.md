@@ -13,3 +13,7 @@ Aprende a usar los servicios web de Amazon.
 ### 3 - Crea tu primer instancia EC2 en Amazon Web Services para hostear una pagina web. Crea nuevas instancias y terminalas a través de la linea de comandos (CLI). | UtilAPIs
 - Video: https://youtu.be/oPixrNEovqg
 - Material: https://github.com/utilapis/amazon-web-services/tree/main/03-ElasticComputeCloudEC2
+
+### 4 - Registra tu dominio usando el servicio Route53. Configura los DNS usando la estrategia de Latencia. | UtilAPIs
+- Video: https://youtu.be/lXCRzqqpBDc
+- Material: https://github.com/utilapis/amazon-web-services/tree/main/04-Route53

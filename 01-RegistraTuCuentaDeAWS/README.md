@@ -20,6 +20,7 @@ Aprende a usar los servicios web de Amazon.
                 "elasticloadbalancing:*",
                 "iam:*",
                 "cloudfront:*",
+                "route53domains:*",
                 "route53:*",
                 "lambda:*",
                 "ecs:*",
