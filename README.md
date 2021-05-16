@@ -17,3 +17,7 @@ Aprende a usar los servicios web de Amazon.
 ### 4 - Registra tu dominio usando el servicio Route53. Configura los DNS usando la estrategia de Latencia. | UtilAPIs
 - Video: https://youtu.be/lXCRzqqpBDc
 - Material: https://github.com/utilapis/amazon-web-services/tree/main/04-Route53
+
+### 5 - Crea una base de datos Postgres usando el servicio RDS, y usala en una aplicación NodeJs. | UtilAPIs
+- Video: https://youtu.be/KOetTEJc0Ng
+- Material: https://github.com/utilapis/amazon-web-services/tree/main/05-RelationalDatabaseServiceRDS

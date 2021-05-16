@@ -1,0 +1,26 @@
+{
+  "name": "05-relationaldataservicerds",
+  "version": "1.0.0",
+  "description": "Aprende a usar el Servicio Relational Data Service de AWS, RDS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/utilapis"
+  },
+  "keywords": [
+    "RDS",
+    "Postgres",
+    "AWS",
+    "Example",
+    "app"
+  ],
+  "author": "utilapis@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  }
+}
