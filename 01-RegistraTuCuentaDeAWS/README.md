@@ -11,6 +11,8 @@ Aprende a usar los servicios web de Amazon.
         {
             "Effect": "Allow",
             "Action": [
+                "rds-db:*",
+                "rds:*",
                 "application-autoscaling:*",
                 "s3:*",
                 "apigateway:*",
