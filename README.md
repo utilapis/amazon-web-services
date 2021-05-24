@@ -21,3 +21,8 @@ Aprende a usar los servicios web de Amazon.
 ### 5 - Crea una base de datos Postgres usando el servicio RDS, y usala en una aplicación NodeJs. | UtilAPIs
 - Video: https://youtu.be/KOetTEJc0Ng
 - Material: https://github.com/utilapis/amazon-web-services/tree/main/05-RelationalDatabaseServiceRDS
+
+### 6 - Crea una tabla en DynamoDB, y usala en una aplicación NodeJs. | UtilAPIs
+- Video: https://youtu.be/bsFF9k-WL8o
+- Material: https://github.com/utilapis/amazon-web-services/tree/main/06-DynamoDB
+

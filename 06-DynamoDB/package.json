@@ -1,0 +1,25 @@
+{
+  "name": "dynamodb",
+  "version": "1.0.0",
+  "description": "Aprende a usar el Servicio DynamoDB de AWS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/utilapis"
+  },
+  "keywords": [
+    "DynamoDB",
+    "Service",
+    "Example",
+    "app"
+  ],
+  "author": "utilapis@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.14.0",
+    "express": "^4.17.1"
+  }
+}
