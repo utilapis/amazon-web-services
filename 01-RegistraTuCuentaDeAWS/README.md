@@ -29,7 +29,8 @@ Aprende a usar los servicios web de Amazon.
                 "ecr:*",
                 "ec2:*",
                 "events:*",
-                "cloudwatch:*"
+                "cloudwatch:*",
+                "serverlessrepo:*"
             ],
             "Resource": "*"
         }
