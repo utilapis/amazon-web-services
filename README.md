@@ -26,3 +26,6 @@ Aprende a usar los servicios web de Amazon.
 - Video: https://youtu.be/bsFF9k-WL8o
 - Material: https://github.com/utilapis/amazon-web-services/tree/main/06-DynamoDB
 
+### 7 - Crea una función lambda, conectala a API Gateway, y usala en una aplicación NodeJs. | UtilAPIs
+- Video: https://youtu.be/ZGf_vBg8d_E
+- Material: https://github.com/utilapis/amazon-web-services/tree/main/07-Lambda
