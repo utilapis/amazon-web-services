@@ -1,0 +1,34 @@
+Transform: AWS::Serverless-2016-10-31
+Description: Ejemplo de intregracion de API Gateway con funcion Lambda
+
+Resources:
+  LambdaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: utilapis-lambda-function
+      Handler: index.handler
+      Runtime: nodejs14.x
+      InlineCode: |
+        exports.handler = async (event) => {
+          let body = {
+            message: "Hola Utilapis!",
+            request: JSON.parse(event.body || "{}")
+          }
+          const response = {
+            statusCode: 200,
+            body: JSON.stringify(body)
+          };
+          return response;
+        }
+      Events:
+        ApiGatewayLambda:
+          Type: Api
+          Properties:
+            Path: /
+            Method: ANY
+
+Outputs:
+  ApiGatewayLambdaURL:
+    Value: !Sub https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/
+  LambdaArn:
+    Value: !GetAtt "LambdaFunction.Arn"

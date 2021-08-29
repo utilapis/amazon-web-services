@@ -1,0 +1,6 @@
+Description: Ejemplo S3 Bucker en cloudformation.
+Resources:
+  MiSuperBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: utilapis-mi-super-bucket
